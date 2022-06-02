@@ -1,0 +1,69 @@
+.registerKey {
+    display: none;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#title {
+    text-align: center;
+    cursor: pointer;
+}
+
+.form-registerKey {
+    display: flex;
+    flex-direction: column;
+    border: #000 solid 1px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.form-registerKey input {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: auto;
+}
+
+.form-registerKey button {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: auto;
+}
+
+.showData {
+    display: none;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.showData div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #000 solid 1px;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 20px 10px;
+}
+
+.showData div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.displayGrid {
+    display: grid;
+}
